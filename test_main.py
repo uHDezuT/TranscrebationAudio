@@ -8,7 +8,7 @@ from tkinter import filedialog
 import vosk
 
 # Инициализация модели распознавания речи
-model = vosk.Model("vosk-model-ru-0.22")
+model = vosk.Model("vosk-model-small-ru-0.22")
 
 
 def open_file():
